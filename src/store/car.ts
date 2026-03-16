@@ -5,7 +5,7 @@ class Car {
     constructor() {
         makeAutoObservable(this,{},{autoBind: true});
     }
-    list = ['Tesla', 'BMW', 'Audi'];
+    list = ['宝马', '奔驰', '奥迪'];
 }
 
 export default new Car();
