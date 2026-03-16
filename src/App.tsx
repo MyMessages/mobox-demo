@@ -13,7 +13,7 @@ const App = observer(() => {
       <header className="App-header">
         <p>Count -- count: {counter.count}</p>
         <p>Count -- double: {counter.double}</p>
-        <p>count--{car.list.join(', ')}</p>
+        <p>car--{car.list.join(', ')}</p>
         <button onClick={counter.increment}>Click +1</button>
         <button onClick={counter.incrementAsync}>Click +1 (async)</button>
         <button onClick={counter.decrement}>Click -1</button>
